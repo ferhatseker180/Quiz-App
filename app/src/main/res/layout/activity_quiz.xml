@@ -16,14 +16,14 @@
         android:padding="16dp">
 
         <TextView
+            android:id="@+id/textViewQuestions"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:gravity="center"
-            android:textSize="22sp"
             android:textColor="#363A43"
-            tools:text="What country does this flag belong to?">
-        </TextView>
+            android:textSize="22sp"
+            tools:text="What country does this flag belong to?"></TextView>
 
         <ImageView
             android:id="@+id/imageView"

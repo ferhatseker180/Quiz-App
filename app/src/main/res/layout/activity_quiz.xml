@@ -21,7 +21,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:gravity="center"
-            android:textColor="#363A43"
+            android:textColor="@color/activityQuizQuizColor"
             android:textSize="22sp"
             tools:text="What country does this flag belong to?"></TextView>
 
@@ -63,15 +63,16 @@
             </TextView>
 
         </LinearLayout>
+
         <TextView
-        android:id="@+id/textViewOptionOne"
+            android:id="@+id/textViewOptionOne"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="@drawable/default_option_border_bg"
             android:gravity="center"
             android:padding="15dp"
-            android:textColor="#7A8089"
+            android:textColor="@color/activitQuizHintColor"
             android:textSize="18sp"
             tools:text="Arjantin" />
 
@@ -79,14 +80,14 @@
             android:id="@+id/textViewOptionTwo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/default_option_border_bg"
             android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
+            android:background="@drawable/default_option_border_bg"
             android:gravity="center"
             android:padding="15dp"
-            android:textColor="#7A8089"
+            android:textColor="@color/activitQuizHintColor"
             android:textSize="18sp"
             tools:text="Google" />
 
@@ -94,14 +95,14 @@
             android:id="@+id/textViewOptionThree"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/default_option_border_bg"
             android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
+            android:background="@drawable/default_option_border_bg"
             android:gravity="center"
             android:padding="15dp"
-            android:textColor="#7A8089"
+            android:textColor="@color/activitQuizHintColor"
             android:textSize="18sp"
             tools:text="Android Inc." />
 
@@ -109,14 +110,14 @@
             android:id="@+id/textViewOptionFour"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/default_option_border_bg"
             android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
+            android:background="@drawable/default_option_border_bg"
             android:gravity="center"
             android:padding="15dp"
-            android:textColor="#7A8089"
+            android:textColor="@color/activitQuizHintColor"
             android:textSize="18sp"
             tools:text="Nokia" />
 
@@ -126,7 +127,7 @@
             android:layout_height="wrap_content"
 
             android:layout_margin="10dp"
-            android:backgroundTint="#000000"
+            android:backgroundTint="@color/buttonBackGroundTintColor"
             android:text="SUBMIT"
             android:textColor="@android:color/white"
             android:textSize="18sp"

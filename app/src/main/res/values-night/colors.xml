@@ -8,13 +8,13 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="activityMainTextColor">#000000</color>
-    <color name="activityMainHintColor">#7A8089</color>
-    <color name="activityMainTextColor2">#363A43</color>
+    <color name="activityMainTextColor">#FFFFFF</color>
+    <color name="activityMainHintColor">#FFFFFF</color>
+    <color name="activityMainTextColor2">#FFFFFF</color>
 
-    <color name="activityQuizQuizColor">#363A43</color>
-    <color name="activitQuizHintColor">#7A8089</color>
-    <color name="buttonBackGroundTintColor">#000000</color>
+    <color name="activityQuizQuizColor">#FFFFFF</color>
+    <color name="activitQuizHintColor">#000000</color>
+    <color name="buttonBackGroundTintColor">#B71C1C</color>
 
 
 </resources>
